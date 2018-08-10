@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <style>
+
+  </style>
+ <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="external.js"></script>
+ 
+  </head>
+ <body><br>
+ <div id="cpoutline">
+ <div id="color-picker">
+ <h1 class="logo">Color Picker</h1>
+ <div id="sliders">
+ <div id="slider1" class="slider"></div><br>
+  <div id="slider2" class="slider"></div><br>
+   <div id="slider3" class="slider"></div>
+   </div>
+   <div id="spinners">
+   
+    <label for="spinnerr">Red:</label>
+  <input id="spinnerr" class="spinner" value="0"  name="spinnerr" ><br>
+  
+   <label for="spinnerg">Green:</label>
+  <input id="spinnerg" class="spinner" value="0"  name="spinnerg" ><br>
+  
+   <label for="spinnerb">Blue:</label>
+  <input id="spinnerb" class="spinner"  value="0" name="spinnerb"><br>
+   
+   </div>
+   
+   <div id="color"></div>
+   <input type="text" id="code">
+   </div></div>
+   
+   <div id="flight">
+   <h1 class="logo">Flight dates</h1>
+
+   <div class="widget">
+   <fieldset>
+    <legend>Select Round trip or one-way: </legend>
+    <label for="radio-1">Round</label>
+    <input type="radio" name="radio-1" id="radio-1"class="radio"checked>
+    <label for="radio-2">One-way</label>
+    <input type="radio" name="radio-1" id="radio-2"class="radio">
+  </fieldset>
+   </div>
+   <div id='datepick'>
+   <label for="from">Leaving</label>
+<input type="text" id="from" name="from">
+<label for="to">Returning</label>
+<input type="text" id="to" name="to">
+ </div>
+<div id="location">
+ <div class="ui-widget"style="margin-bottom: 60px;">
+  <label for="tags">From: </label>
+  <input class="tags">
+</div>
+ 
+  <div class="ui-widget">
+  <label for="tags">To: </label>
+  <input class="tags">
+</div>
+ </div>
+ <button>Submit</button>
+ </div>
+</body>
+
+</html>

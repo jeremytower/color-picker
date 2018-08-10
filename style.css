@@ -1,0 +1,99 @@
+  .slider {
+	width: 400px;
+	margin-bottom: 10px;
+  }
+  
+  #slider1 {
+	  background-color: red;
+  }
+  
+    #slider2 {
+	  background-color: green;
+  }
+  
+    #slider3 {
+	  background-color: blue;
+  }
+  #code {
+	  margin-top: 80px;
+	 
+  }
+  #color {
+	  width: 300px;
+	  height: 300px;
+	  border: 2px solid black;
+	margin-left: 500px;
+	
+	 
+	 
+	  
+  }
+  
+  #color-picker {
+		width: 80%;
+		margin: auto;
+	  margin-bottom: 50px;
+	
+	 
+  }
+  #cpoutline {
+	 border: solid 2px black;
+	  box-shadow: 3px 3px 5px black;
+	  width: 70%;
+	  margin: auto;
+  }
+  
+  #sliders {
+	  float: left;
+	 
+  }
+  
+  #spinners{
+	  position: absolute;
+	  top: 330px;
+	  left: 250px;
+	  text-align: right;
+  }
+  
+  .spinner {
+	  
+  }
+  
+  .logo {
+	  text-align: center;
+	  margin-bottom: 50px;
+  }
+  #datepick {
+	  
+	  margin-top: 100px;
+	  margin-bottom: 100px;
+	  text-align: center;
+  }
+  
+  #location {
+	
+		width: 50%;
+		margin: auto;
+		margin-bottom: 50px;
+		text-align: right;
+  }
+  .widget {
+	  width: 50%;
+	  margin: auto;
+  }
+  
+  #flight{
+	  border: solid 2px black;
+	  box-shadow: 3px 3px 5px black;
+	  width: 70%;
+	  margin: auto;
+	  margin-top: 60px;
+	 
+  }
+  
+  button {
+	  margin-left: 70%;
+	 margin-bottom: 100px;
+	
+  }
+  
